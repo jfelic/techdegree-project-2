@@ -1,0 +1,90 @@
+/* --- Base Element Styles ---*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--- Base Layout Styles --*/
+html {
+    font-size: 100%;
+
+}
+body {
+    display: flex;
+    flex-direction:column;
+    font-family: 'Bree Serif', serif;
+    color: rgb(0, 0, 0);
+    background-color: #11577a;
+    hyphens: auto;
+    text-align: center;
+    font-size: 1.25rem;
+}
+header {
+    background-color: teal;
+}
+html, body {
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+h1 {
+    font-size: 2.75rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    text-align: center;
+}
+img {
+    max-width: 100%;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding: 0 20px;
+    height: 100px;
+    background-color: #107896;
+}
+.full {
+    display: none;
+}
+.main-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: tomato;
+    margin: 0 2rem;
+
+}
+.main-nav li {
+    padding: 2rem;
+}
+.h3 {
+    margin: 2rem;
+}
+ /* ---Media Queries---*/
+@media (min-width: 767px) {
+    .top {
+        display: none;
+    }
+    .full {
+        display: inline-block;
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 1023px) {
+  
+}
