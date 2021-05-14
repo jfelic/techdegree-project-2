@@ -88,6 +88,7 @@ footer {
     padding: 0 20px;
     height: 100px;
     background-color: #557a95;
+    font-size: 1rem;
 }
 .full {
     display: none;
@@ -183,9 +184,11 @@ footer {
     .flexbox-container ul {
         display: flex;
         flex-direction: row;
-        flex-grow:1;
+        flex-grow:.25;
         align-self: flex-start;
         align-items: flex-end;
+        text-align: right;
+        
     }
     h1 {
         padding-top: 0;
